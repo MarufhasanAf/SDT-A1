@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-color: #121212;
+        color: white;
+        font-family: Arial, sans-serif;
+      }
+      .portfolio-title {
+        text-align: center;
+        margin: 30px 0;
+      }
+      .card {
+        background-color: #1e1e1e;
+        border: none;
+      }
+      .skill-tags span {
+        background-color: #343a40;
+        color: white;
+        padding: 5px 10px;
+        margin: 5px;
+        border-radius: 20px;
+        font-size: 0.9rem;
+      }
+      .education-section {
+        margin-top: 40px;
+      }
+      .education-title {
+        color: #00bcd4;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="d-flex justify-content-around align-items-center">
+      <a><img class="w-20 nav-logo" src="icons/logo.png" alt="Logo" /></a>
+      <ul
+        class="d-flex flex-sm-column-reverse justify-content-around align-items-center gap-4 fw-bold"
+      >
+        <li>
+          <a class="text-decoration-none text-white" href="Home">Home</a>
+        </li>
+        <li>
+          <a class="text-decoration-none text-white" href="Home">Portfolio</a>
+        </li>
+        <li>
+          <a class="text-decoration-none text-white" href="Home">Skills</a>
+        </li>
+        <li>
+          <a class="text-decoration-none text-white" href="Home">About</a>
+        </li>
+        <a href="#" download class="btn btn-info">
+          Resume <i class="fa-solid fa-download"></i>
+        </a>
+      </ul>
+    </nav>
+    <div class="container">
+      <h1 class="portfolio-title">Portfolio</h1>
+
+      <!-- Portfolio Projects -->
+      <div class="row mb-5">
+        <div class="col-md-6">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h5 class="card-title">
+                Online University <span>&#128104;&#8205;&#127891;</span>
+              </h5>
+              <p class="card-text">
+                This is a travel service agency website. Users can login via
+                Facebook Sign-in, Google Sign-in, and create a new account to
+                use services. Users can choose their preferred vehicle and view
+                their current location using Firebase Authentication.
+              </p>
+              <ul>
+                <li>Feature 1: Choose the perfect vehicle.</li>
+                <li>Feature 2: See current location.</li>
+                <li>Feature 3: Login via Google, Facebook, or GitHub.</li>
+              </ul>
+              <div class="skill-tags">
+                <span>React</span>
+                <span>Firebase</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Node.js</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h5 class="card-title">Urban Riders <span>&#128663;</span></h5>
+              <p class="card-text">
+                This platform enables users to find rides based on their
+                location. Users can log in using various methods and enjoy a
+                smooth experience finding their ride.
+              </p>
+              <ul>
+                <li>Feature 1: Location-based ride options.</li>
+                <li>Feature 2: Secure login with multiple providers.</li>
+                <li>Feature 3: Intuitive user experience.</li>
+              </ul>
+              <div class="skill-tags">
+                <span>React</span>
+                <span>Firebase</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Node.js</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills Section -->
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Expertise:</h4>
+          <p>
+            React.js, JavaScript, Node.js, Firebase, Express.js, HTML,
+            Bootstrap, MongoDB
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h4>Comfortable:</h4>
+          <p>SQL, Redux, Socket.io, AWS, Docker, TypeScript, Next.js</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Familiar:</h4>
+          <p>C++, Python, Spring Boot, Networking</p>
+        </div>
+      </div>
+
+      <!-- Education Section -->
+      <div class="row education-section">
+        <h4 class="education-title">My Education</h4>
+        <p>
+          B.Sc in Software Engineering, Yunnan University (Kunming, Yunnan,
+          China)<br />2018-2022
+        </p>
+      </div>
+
+      <!-- Tools Section -->
+      <div class="row">
+        <h4>Tools:</h4>
+        <p>VS Code, JIRA, Trello, Git</p>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
